@@ -1,4 +1,3 @@
-<script>
 async function finalizarComQuiz(cpf, linkunico,codigo) {
     await setupTokenParceria();
     if (await checkLINKUNICO(cpf, linkunico)) {
@@ -187,5 +186,3 @@ $(document).ready(function () {
         }
     });
 });
-
-</script>
